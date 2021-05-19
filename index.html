@@ -65,40 +65,58 @@
         </div> 
 
         <div class="main">
+            <div class="dropdownBackground">
+                 <span class="arrow"></span>
+               </div>
         	<div class="topbar">
         		<div class="toggle" onClick="toggleMenu()"></div>
         		<div class="hello"><h2>Hi, Champion!!</h2></div>
-        		<div class="end">
-	        		<div class="icon2">
-	        			<a href="">
-	        			 <i class="fa fa-heart-o" aria-hidden="true"></i>
-	        		    </a>
-	        		</div>
-	        		<div class="icon2">
-	        			<a href="">
+        		<ul class="cool">
+	        		<li class="icon2">
+	        			<a href="#">
+	        			 <i class="fa fa-heart-o" aria-hidden="true">
+                         </i>
+	        	        </a>
+                        <ul class="dropdown dropdown1">
+                                <li><a href="">Fitness</a></li>
+                                <li><a href="">History</a></li>
+                                <li><a href="">Biology</a></li>
+                                <li><a href="">Math</a></li>
+                        </ul>
+	        		</li>
+	        		<li class="icon2">
+	        			<a href="#">
 	        			 <i class="fa fa-bell-o" aria-hidden="true"></i>
 	        		    </a>
-	        		</div>
+                        <ul class="dropdown dropdown2">
+                                <li><a href="">Fitness</a></li>
+                                <li><a href="">History</a></li>
+                                <li><a href="">Biology</a></li>
+                                <li><a href="">Math</a></li>
+                                <li><a href="">Fitness</a></li>
+                                <li><a href="">History</a></li>
+                                <li><a href="">Biology</a></li>
+                                <li><a href="">Math</a></li>
+                        </ul>
+	        		</li>
 	        		<div class="user icon2">
-	        			<a href="">
+	        			<a href="#">
 	        			<img src="photo.jpg">
 	        		   </a>
+                       <ul >
+                                <li><a href="">Fitness</a></li>
+                                <li><a href="">History</a></li>
+                                <li><a href="">Biology</a></li>
+                                <li><a href="">Math</a></li>
+                        </ul>
 	        		</div>
-	        	</div>
+	        	</ul>
         	</div>
        </div>
     </div>
 
-    <script type="text/javascript">
-    	function toggleMenu(){
-    		let toggle = document.querySelector('.toggle');
-    		let navigation = document.querySelector('.navigation');
-            let main = document.querySelector('.main');
+    <script type="text/javascript" src="script1.js"></script>
 
-    		toggle.classList.toggle('active');
-    		navigation.classList.toggle('active');
-    		main.classList.toggle('active');
-    	}
-    </script>
+    <script type="text/javascript" src="script2.js"></script>
 </body>
 </html>
