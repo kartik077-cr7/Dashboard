@@ -8,7 +8,7 @@ The Languages Includes:-
 3) Javascript
 
 How To Install And Use:-
-1) Simply download the files (either directly or through git commands) than open the index.html to see how it looks until now.
+1) Simply download the files (either directly or through git commands) than open the index.html to see how it looks.
 
 Some Additional Features Used:-
 
